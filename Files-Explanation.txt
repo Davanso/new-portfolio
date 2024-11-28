@@ -1,0 +1,23 @@
+meu-projeto/
+├── node_modules/       # Dependências instaladas
+├── public/             # Arquivos públicos estáticos
+├── src/                # Código fonte do projeto
+│   ├── components/     # Componentes reutilizáveis
+│   ├── pages/          # Componentes de página
+│   ├── assets/         # Imagens, fontes, etc.
+│   ├── App.jsx         # Componente principal da aplicação
+│   └── main.jsx        # Ponto de entrada da aplicação
+├── index.html          # Página HTML principal
+├── vite.config.js      # Configurações do Vite
+├── package.json        # Configurações de dependências
+└── tailwind.config.js  # Configurações do Tailwind (se usado)
+
+
+Como funciona o fluxo:
+
+index.html carrega o main.jsx
+main.jsx renderiza o App.jsx
+App.jsx renderiza os componentes filhos
+
+
+Colinha pra não esquecer, Burro.
